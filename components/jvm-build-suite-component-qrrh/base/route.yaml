@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-qrrh
     app.kubernetes.io/part-of: jvm-build-suite-application-eghf
-  name: jvm-build-suite-component6o4j
+  name: jvm-build-suite-componentmsze
   namespace: jvm-build-zigp-tenant
 spec:
   port:
