@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-qrrh
+  namespace: jvm-build-zigp-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/test-images@sha256:895dfd11ef23388af582e757d247b447d21f1ea6e039bc17b5362db91c0f4905
+        name: container-image
+        resources: {}
+status: {}
